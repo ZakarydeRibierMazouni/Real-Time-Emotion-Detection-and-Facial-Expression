@@ -13,7 +13,7 @@ This project focuses on developing a system capable of detecting emotions in rea
 
 ## Source Code  
 
-The main implementation is contained within **`emotion_detection.py`**, a Python script that uses OpenCV for video capture and DeepFace for emotion analysis. The code is structured for clarity and ease of use, making it accessible for further development or integration.  
+The main implementation is contained within **emotion_detection.py**, a Python script that uses OpenCV for video capture and DeepFace for emotion analysis. The code is structured for clarity and ease of use, making it accessible for further development or integration.  
 
 ---
 
