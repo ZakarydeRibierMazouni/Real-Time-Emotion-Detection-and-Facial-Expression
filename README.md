@@ -57,17 +57,18 @@ Ensure the following are installed:
 
 ### Example Usage  
 Once the script is running, the webcam feed will display detected faces, with a label indicating the dominant emotion for each face.  
+![Model Performance](examples faces.png)
 
 ---
 ### Graph Explanation  
-
+ ![Model Performance](graph.png)
 #### 1. Model Accuracy (Left)  
-- The **blue curve** represents training accuracy, which steadily increased across epochs.  
-- The **orange curve** indicates validation accuracy, which improved initially but plateaued after 20 epochs, possibly due to overfitting or insufficient dataset diversity.  
+- The **green curve** represents training accuracy, which steadily increased across epochs.  
+- The **pink curve** indicates validation accuracy, which improved initially but plateaued after 20 epochs, possibly due to overfitting or insufficient dataset diversity. 
 
 #### 2. Model Loss (Right)  
-- The **blue curve** represents training loss, showing a continuous decline, which indicates the model was effectively learning during training.  
-- The **orange curve** represents validation loss, which decreased initially but started increasing after 20 epochs. This divergence suggests the model overfit to the training data after a certain point.  
+- The **green curve** represents training loss, showing a continuous decline, which indicates the model was effectively learning during training.  
+- The **pink curve** represents validation loss, which decreased initially but started increasing after 20 epochs. This divergence suggests the model overfit to the training data after a certain point.  
 
 These metrics and trends highlight the need for further optimization, such as increasing dataset size, implementing data augmentation, or fine-tuning the CNN architecture.  
 
