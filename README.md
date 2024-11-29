@@ -57,7 +57,8 @@ Ensure the following are installed:
 
 ### Example Usage  
 Once the script is running, the webcam feed will display detected faces, with a label indicating the dominant emotion for each face.  
-![Model Performance](examples faces.png)
+
+![Model Performance](examplefaces.png)
 
 ---
 ### Graph Explanation  
